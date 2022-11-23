@@ -1,9 +1,10 @@
-#Iterative Binary Search
+#Iterative Binary Search example
 
 def binary_search(list, target):
   first = 0
   last = len(list) - 1
 
+#if we have an empty list the first is greater that last(), and the loop would never execute and we return None(at the bottom, line 17)
   while first <= last:
     midpoint = (first + last)//2 # the // is the floor operator
     
